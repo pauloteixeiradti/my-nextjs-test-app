@@ -18,7 +18,7 @@ export default function Home() {
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
-          <li>Next Auth Secret: {process.env.NEXTAUTH_SECRET}</li>
+          <li>Next Auth Secret {process.env.NEXTAUTH_SECRET}</li>
         </ol>
 
         <div className={styles.ctas}>
