@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cross-env shx cp -r .next/static .next/standalone/.next/ && cross-env shx cp -r public .next/standalone/",
-    "start": "next start",
+    "build": "next build && shx cp -r .next/static .next/standalone/.next/ && shx cp -r public .next/standalone/",
+    "start": "NODE_ENV=production node .next/standalone/server.js",
     "lint": "next lint"
   },
   "dependencies": {
