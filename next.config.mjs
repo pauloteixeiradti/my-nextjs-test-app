@@ -1,3 +1,1 @@
-module.exports ={
-    output:"standalone",
-}
+export const output = "standalone";
